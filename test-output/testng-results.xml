@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76590" started-at="2018-10-21T01:50:36Z" finished-at="2018-10-21T01:51:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76590" started-at="2018-10-21T01:50:36Z" finished-at="2018-10-21T01:51:52Z">
+      <class name="com.test.dartyTest0">
+        <test-method status="PASS" signature="setBrowserConfig()[pri:0, instance:com.test.dartyTest0@bd8db5a]" name="setBrowserConfig" is-config="true" duration-ms="30700" started-at="2018-10-21T03:50:36Z" finished-at="2018-10-21T03:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserConfig -->
+        <test-method status="PASS" signature="runTest()[pri:0, instance:com.test.dartyTest0@bd8db5a]" name="runTest" is-config="true" duration-ms="19586" started-at="2018-10-21T03:51:07Z" finished-at="2018-10-21T03:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="FAIL" signature="launchTest()[pri:0, instance:com.test.dartyTest0@bd8db5a]" name="launchTest" duration-ms="26242" started-at="2018-10-21T03:51:26Z" finished-at="2018-10-21T03:51:52Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <a class="next_prev" href="/nav/achat/informatique/ordinateur_portable-portable/portable/lenovo_ideapad_330s-15ikb_3.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshedFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'System info: host: 'LAPTOP-DTHLJCUF', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11388, moz:profile: C:\Users\Wilson shix\AppDat..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: b039d197-00dd-4b67-b961-b073267a5594]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <a class="next_prev" href="/nav/achat/informatique/ordinateur_portable-portable/portable/lenovo_ideapad_330s-15ikb_3.html"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshedFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'System info: host: 'LAPTOP-DTHLJCUF', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11388, moz:profile: C:\Users\Wilson shix\AppDat..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}Session ID: b039d197-00dd-4b67-b961-b073267a5594at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)at com.pageFactory.SearchPage.getArticleSize(SearchPage.java:188)at com.pageFactory.SearchPage.clickOnRandomArticle(SearchPage.java:128)at com.test.dartyTest0.launchTest(dartyTest0.java:98)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.test.dartyTest0@bd8db5a]" name="closeTest" is-config="true" duration-ms="1" started-at="2018-10-21T03:51:52Z" finished-at="2018-10-21T03:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.test.dartyTest0 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
